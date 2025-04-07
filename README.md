@@ -30,38 +30,38 @@ FireDucks is here to fix that — it’s a blazing-fast dataframe engine powered
 
 # 📥 Clone the Repository
 
-git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
+<pre> ```git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
 
-cd fireducks-vs-pandas-benchmark
+cd fireducks-vs-pandas-benchmark ``` </pre>
 
 # 📦 Install Requirements
 
-``` pip install -r requirements.txt ``` 
+<pre> ```pip install -r requirements.txt ``` </pre>
 
 # 🧪 Enable FireDucks Benchmarking Mode
 
-```export FIREDUCKS_BENCHMARK=1```  # For Unix/Mac
+<pre> ```export FIREDUCKS_BENCHMARK=1  # For Unix/Mac
 
-```set FIREDUCKS_BENCHMARK=1```    # For Windows (CMD)
+set FIREDUCKS_BENCHMARK=1   # For Windows (CMD) ``` </pre>
 
 
 # 🧪 Run the Benchmark
 
 # 🧬 Generate the Dataset
 
-```python generate_dataset.py```
+<pre> ```python benchmark_pandas.py ``` </pre>
 
 # 🐼 Benchmark pandas
 
-```python benchmark_pandas.py```
+<pre> ```python benchmark_pandas.py``` </pre>
 
 # 🔥 Benchmark FireDucks
 
-```python benchmark_fireducks.py```
+<pre> ```python benchmark_fireducks.py ``` </pre>
 
 # 📊 Visualize Results
 
-```python visualize_results.py```
+<pre> ```python visualize_results.py ``` </pre>
 
 # 🤝 Contributing
 
