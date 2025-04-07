@@ -1,8 +1,8 @@
 # fireducks-vs-pandas-benchmark
-# 🔥 Simplifying AI/ML Pipelines with FireDucks: A Threat to Pandas 🐼
+# 🔥 Speeding Up AI Pipelines with FireDucks: A Powerful Alternative to Pandas 🐼
 
 Welcome to the official GitHub repo for the blog:
-"Simplifying AI/ML Pipelines with FireDucks: A Threat to Pandas" 🧠💻
+"Speeding Up AI Pipelines with FireDucks: A Powerful Alternative to Pandas" 🧠💻
 This project showcases how FireDucks, a powerful DuckDB + PyTorch-powered dataframe engine, outperforms traditional pandas in handling large-scale AI/ML data workflows. Fast, memory-efficient, and supercharged for modern data pipelines! ⚡
 
 
