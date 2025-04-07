@@ -16,54 +16,79 @@ FireDucks is here to fix that — it’s a blazing-fast dataframe engine powered
 4) pandas-like API with high-speed performance
 
 # 📁 Project Structure
-
-<pre> 📂 fireducks-vs-pandas-benchmark
-
-├── 🐍 generate_dataset.py         
+```
+fireducks-vs-pandas-benchmark
+├── 🐍 generate_dataset.py
 ├── 🐼 benchmark_pandas.py
-├── 🔥 benchmark_fireducks.py      
-├── 📊 visualize_results.py        
-├── 📄 requirements.txt            
-└── 📘 README.md </pre>                  
+├── 🔥 benchmark_fireducks.py
+├── 📊 visualize_results.py
+├── 📄 requirements.txt
+└── 📘 README.md
+```
 
-# ⚙️ Setup & Installation
+### 📂 Files and Directories
 
-# 📥 Clone the Repository
+- **generate_dataset.py**: This script generates a synthetic dataset to be used for benchmarking.
+- **benchmark_pandas.py**: This script benchmarks the performance of data processing tasks using the Pandas library.
+- **benchmark_fireducks.py**: This script benchmarks the performance of data processing tasks using the Fireducks library.
+- **visualize_results.py**: This script visualizes the results of the benchmarks, comparing the performance of Fireducks and Pandas.
+- **requirements.txt**: This file contains a list of dependencies required to run the scripts.
+- **README.md**: This file contains information about the project.
 
-git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
+# 🚀 Getting Started
 
+## ⚙️ Setup & Installation
+
+### 📥 Clone the Repository
+```bash
+!git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
 cd fireducks-vs-pandas-benchmark
+```
+### 📦 Prerequisites
 
-# 📦 Install Requirements
+Make sure you have Python installed on your system. You can install the required dependencies using the following command:
 
-<pre> pip install -r requirements.txt</pre>
+```bash
+pip install -r requirements.txt
+```
+### 🧪 Enable FireDucks Benchmarking Mode
 
-# 🧪 Enable FireDucks Benchmarking Mode
+```bash
+export FIREDUCKS_BENCHMARK=1  # For Unix/Mac
 
-<pre> export FIREDUCKS_BENCHMARK=1  # For Unix/Mac
+set FIREDUCKS_BENCHMARK=1   # For Windows (CMD)
+```
+## 🧪 Run the Benchmark
 
-set FIREDUCKS_BENCHMARK=1   # For Windows (CMD) </pre>
+1. **Generate Dataset**: First, generate the dataset by running the `generate_dataset.py` script.
 
+    ```bash
+    python generate_dataset.py
+    ```
 
-# 🧪 Run the Benchmark
+2. **Benchmark with Pandas**: Run the `benchmark_pandas.py` script to benchmark the performance with the Pandas library.
 
-# 🧬 Generate the Dataset
+    ```bash
+    python benchmark_pandas.py
+    ```
 
-<pre> python benchmark_pandas.py </pre>
+3. **Benchmark with Fireducks**: Run the `benchmark_fireducks.py` script to benchmark the performance with the Fireducks library.
 
-# 🐼 Benchmark pandas
+    ```bash
+    python benchmark_fireducks.py
+    ```
 
-<pre> python benchmark_pandas.py</pre>
+4. **Visualize Results**: Finally, visualize the benchmark results by running the `visualize_results.py` script.
 
-# 🔥 Benchmark FireDucks
+    ```bash
+    python visualize_results.py
+    ```
 
-<pre> python benchmark_fireducks.py </pre>
+## ✅ Results
 
-# 📊 Visualize Results
+The results of the benchmarks will be visualized and saved as images in the `results` directory. These visualizations will help in comparing the performance of Fireducks and Pandas for various data processing tasks.
 
-<pre> python visualize_results.py </pre>
-
-# 🤝 Contributing
+## 🤝 Contributing
 
 WFound a bug? Want to add more comparisons or improve benchmarks?
 
@@ -75,6 +100,6 @@ WFound a bug? Want to add more comparisons or improve benchmarks?
 
 Or just open an issue – we’d love to hear from you!
 
-# 📄 License
+## 📄 License
 This project is licensed under the MIT License. 
 Feel free to use, modify, and share! ✨
