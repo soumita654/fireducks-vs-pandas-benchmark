@@ -25,6 +25,12 @@ fireducks-vs-pandas-benchmark
 ├── 📄 requirements.txt
 └── 📘 README.md
 ```
+# 🛠 Tools & Technologies Used
+- #### pandas: Comparison baseline
+- #### fireducks: Fast dataframe engine
+- #### sklearn: For creating and preprocessing synthetic ML data
+- #### matplotlib: Plotting
+- #### time: Benchmarking measurement
 
 ### 📂 Files and Directories
 
