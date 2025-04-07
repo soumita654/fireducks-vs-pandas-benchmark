@@ -30,9 +30,9 @@ FireDucks is here to fix that — it’s a blazing-fast dataframe engine powered
 
 # 📥 Clone the Repository
 
-<pre>git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
+git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
 
-cd fireducks-vs-pandas-benchmark</pre>
+cd fireducks-vs-pandas-benchmark
 
 # 📦 Install Requirements
 
