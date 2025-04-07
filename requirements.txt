@@ -1,0 +1,6 @@
+pandas
+fireducks
+scikit-learn
+matplotlib
+python-dotenv
+pyarrow
