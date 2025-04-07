@@ -17,51 +17,51 @@ FireDucks is here to fix that — it’s a blazing-fast dataframe engine powered
 
 # 📁 Project Structure
 
-📂 fireducks-vs-pandas-benchmark
+<pre> 📂 fireducks-vs-pandas-benchmark
 
 ├── 🐍 generate_dataset.py         
 ├── 🐼 benchmark_pandas.py
 ├── 🔥 benchmark_fireducks.py      
 ├── 📊 visualize_results.py        
 ├── 📄 requirements.txt            
-└── 📘 README.md                  
+└── 📘 README.md </pre>                  
 
 # ⚙️ Setup & Installation
 
 # 📥 Clone the Repository
 
-<pre> ```git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
+<pre>git clone https://github.com/soumita654/fireducks-vs-pandas-benchmark.git
 
-cd fireducks-vs-pandas-benchmark ``` </pre>
+cd fireducks-vs-pandas-benchmark</pre>
 
 # 📦 Install Requirements
 
-<pre> ```pip install -r requirements.txt ``` </pre>
+<pre> pip install -r requirements.txt</pre>
 
 # 🧪 Enable FireDucks Benchmarking Mode
 
-<pre> ```export FIREDUCKS_BENCHMARK=1  # For Unix/Mac
+<pre> export FIREDUCKS_BENCHMARK=1  # For Unix/Mac
 
-set FIREDUCKS_BENCHMARK=1   # For Windows (CMD) ``` </pre>
+set FIREDUCKS_BENCHMARK=1   # For Windows (CMD) </pre>
 
 
 # 🧪 Run the Benchmark
 
 # 🧬 Generate the Dataset
 
-<pre> ```python benchmark_pandas.py ``` </pre>
+<pre> python benchmark_pandas.py </pre>
 
 # 🐼 Benchmark pandas
 
-<pre> ```python benchmark_pandas.py``` </pre>
+<pre> python benchmark_pandas.py</pre>
 
 # 🔥 Benchmark FireDucks
 
-<pre> ```python benchmark_fireducks.py ``` </pre>
+<pre> python benchmark_fireducks.py </pre>
 
 # 📊 Visualize Results
 
-<pre> ```python visualize_results.py ``` </pre>
+<pre> python visualize_results.py </pre>
 
 # 🤝 Contributing
 
