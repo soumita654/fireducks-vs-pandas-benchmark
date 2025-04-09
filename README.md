@@ -96,7 +96,7 @@ The results of the benchmarks will be visualized and saved as images in the `res
 
 ## 🤝 Contributing
 
-WFound a bug? Want to add more comparisons or improve benchmarks?
+Found a bug? Want to add more comparisons or improve benchmarks?
 
 ✅ Fork this repo
 
