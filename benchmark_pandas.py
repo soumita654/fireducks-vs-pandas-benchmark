@@ -1,9 +1,16 @@
-import pandas as pd
+import time
 from sklearn.preprocessing import MinMaxScaler
-from src.config import DATA_PATH
-from src.evaluate import evaluate
+import pandas as pd # Make sure pandas is imported and aliased as pd
 
-def benchmark_pandas():
-    load_pandas = evaluate("Pandas Load", lambda: pd.read_parquet(DATA_PATH))
-    scaler = MinMaxScaler()
-    _ = evaluate("Pandas Preprocessing", lambda: scaler.fit_transform(load_pandas.drop("target", axis=1)))
+# Load with pandas
+start = time.time()
+df_pandas = pd.read_parquet('benchmark_dataset.parquet') # Now pd refers to pandas
+df_pandas.head()  # Force evaluation
+load_pandas_time = time.time() - start
+
+# Preprocessing with pandas
+start = time.time()
+scaler = MinMaxScaler()
+scaled_pandas = scaler.fit_transform(df_pandas.drop('target', axis=1))
+_ = scaled_pandas.mean()  # Force evaluation
+preprocess_pandas_time = time.time() - start
